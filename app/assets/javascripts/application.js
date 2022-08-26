@@ -18,3 +18,7 @@
 // Loads all Semantic javascripts
 //= require semantic-ui
 //= require semantic-ui/dropdown
+
+$(document).on("turbolinks:load", () => {
+   $(".ui.dropdown").dropdown();
+});
